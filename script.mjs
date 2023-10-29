@@ -1,4 +1,7 @@
-function convertMarlaToSquareFeet() {
+function doConvert(event) 
+
+{ 
+    event.preventDefault();
     // Get the value of Marla input
     var marla = parseFloat(document.getElementById("marla").value);
     
